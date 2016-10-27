@@ -10,7 +10,7 @@ import {CURRENT_IP, WEBPACK_SERVER_PORT, BROWSER_SYNC_PORT, projectRootPath, tem
 const externalPath = `http://${CURRENT_IP}:${WEBPACK_SERVER_PORT}/`
 
 export default webpackMerge(webpackConfigBase, {
-  devtool: 'eval-source-map',
+  devtool: 'eval',
   entry: {
     app: [
       'eventsource-polyfill', // IE HMR fix
@@ -49,6 +49,7 @@ export default webpackMerge(webpackConfigBase, {
       inject: true
     }),
     new BrowserSyncPlugin({
+      open: false,
       port: BROWSER_SYNC_PORT,
       // proxy the Webpack Dev Server endpoint
       proxy: externalPath
