@@ -1,11 +1,11 @@
 {
-  "app.css": "static/css/app.66ee3fd506484fd08db7ef3031ba19bc.css",
-  "app.css.map": "static/css/app.66ee3fd506484fd08db7ef3031ba19bc.css.map",
-  "app.js": "static/js/app.be083bb8d6775e68efc9.js",
-  "app.js.map": "static/js/app.be083bb8d6775e68efc9.js.map",
+  "app.css": "/copesco/static/css/app.66ee3fd506484fd08db7ef3031ba19bc.css",
+  "app.css.map": "/copesco/static/css/app.66ee3fd506484fd08db7ef3031ba19bc.css.map",
+  "app.js": "/copesco/static/js/app.be083bb8d6775e68efc9.js",
+  "app.js.map": "/copesco/static/js/app.be083bb8d6775e68efc9.js.map",
   "favicon.ico": "favicon.ico",
-  "manifest.js": "static/js/manifest.7b87a148c420a1aafd44.js",
-  "manifest.js.map": "static/js/manifest.7b87a148c420a1aafd44.js.map",
-  "vendor.js": "static/js/vendor.09f23eb921bb994b4a04.js",
-  "vendor.js.map": "static/js/vendor.09f23eb921bb994b4a04.js.map"
+  "manifest.js": "/copesco/static/js/manifest.c873f3cc56523638bcfb.js",
+  "manifest.js.map": "/copesco/static/js/manifest.c873f3cc56523638bcfb.js.map",
+  "vendor.js": "/copesco/static/js/vendor.09f23eb921bb994b4a04.js",
+  "vendor.js.map": "/copesco/static/js/vendor.09f23eb921bb994b4a04.js.map"
 }
