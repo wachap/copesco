@@ -14,9 +14,9 @@ export default webpackMerge(webpackConfigBase, {
     app: path.join(projectRootPath, 'src/app/main.js')
   },
   output: {
-    publicPath: '/',
-    filename: '/copesco/static/js/[name].[chunkhash].js',
-    chunkFilename: '/copesco/static/js/[name].[chunkhash].chunk.js'
+    publicPath: '/copesco',
+    filename: 'static/js/[name].[chunkhash].js',
+    chunkFilename: 'static/js/[name].[chunkhash].chunk.js'
   },
   module: {
     loaders: [
@@ -68,7 +68,7 @@ export default webpackMerge(webpackConfigBase, {
       chunks: ['vendor']
     }),
     // extract the CSS into a separate file
-    new ExtractTextPlugin('/copesco/static/css/[name].[contenthash].css'),
+    new ExtractTextPlugin('static/css/[name].[contenthash].css'),
     // minify and optimize the index.html
     new HtmlWebpackPlugin({
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
