@@ -1,8 +1,16 @@
+/* eslint-disable */
+
+require('swiper/dist/css/swiper.css')
+require('swiper/dist/js/swiper.js')
 require('src/favicon.ico')
 require('src/styles/main.scss')
 
-// This tells Webpack that this file and all of its dependencies can be replaced.
-// http://andrewhfarmer.com/webpack-hmr-tutorial/#the-simple-way
+let carousel = new window.Swiper('.js-carousel', {
+  autoplay: 2500
+})
+
 if (module.hot) {
-  module.hot.accept()
+  module.hot.accept(() => {
+    carousel.destroy(true, true)
+  })
 }

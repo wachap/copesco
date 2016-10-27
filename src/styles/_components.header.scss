@@ -1,0 +1,17 @@
+.c-header {
+
+}
+
+  .c-header__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+    .c-header__nav {
+      li {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
