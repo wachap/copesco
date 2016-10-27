@@ -1,0 +1,2 @@
+webpackJsonp([1,0],[function(n,o,c){"use strict";c(2),c(4),c(3),c(1);new window.Swiper(".js-carousel",{autoplay:2500})},function(n,o){},1,function(n,o,c){n.exports=c.p+"favicon.ico"}]);
+//# sourceMappingURL=app.be083bb8d6775e68efc9.js.map
