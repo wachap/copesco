@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  #HEADINGS
+\*------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // color: $heading-text-color;
+  // font-family: $heading-font-family;
+  // font-weight: $heading-font-weight;
+}
+
+h1 { font-size: $global-fz-h1 };
+h2 { font-size: $global-fz-h2 };
+h3 { font-size: $global-fz-h3 };
+h4 { font-size: $global-fz-h4 };
+h5 { font-size: $global-fz-h5 };
+h6 { font-size: $global-fz-h6 };

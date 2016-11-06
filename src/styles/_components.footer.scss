@@ -1,0 +1,83 @@
+.c-footer {
+
+}
+  .c-footer__cta {
+    background-color: $global-color-primary;
+    color: $white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.75rem $global-spacing-unit;
+
+    span {
+      margin-right: 1em;
+      font-weight: $global-fw-s-bold;
+      vertical-align: middle;
+    }
+
+    a {
+      vertical-align: middle;
+    }
+  }
+
+  .c-footer__nav {
+    background-color: #737277;
+    color: $white;
+    padding: 2rem 0;
+  }
+
+    .c-footer__nav-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      img {
+        height: 60px;
+      }
+    }
+
+      .c-footer__nav-lists {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        a {
+          color: $white;
+          font-size: $global-fz-sm;
+        }
+
+        h4 {
+          margin: 0 0 .5em;
+        }
+
+        @include mq($until: 'laptop') {
+          width: 100%;
+          flex-direction: column;
+        };
+      }
+
+        .c-footer__nav-list {
+          @include mq($from: 'laptop') {
+            &:first-child {
+              margin-right: $global-space-6;
+            }
+          };
+
+          @include mq($until: 'laptop') {
+            margin-bottom: 2rem;
+          };
+        }
+
+  .c-footer__contact {
+    background-color: #414042;
+    padding: 1rem 0;
+
+    p {
+      color: $white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }

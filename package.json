@@ -10,8 +10,17 @@
   "dependencies": {
     "express": "^4.14.0",
     "my-ip": "^1.1.1",
-    "sanitize.css": "^4.1.0",
-    "swiper": "^3.4.0"
+    "swiper": "^3.4.0",
+    "wocss-generic-sanitize": "^1.0.0",
+    "wocss-objects-wrapper": "^2.0.0-0",
+    "wocss-settings-breakpoints": "^2.0.2",
+    "wocss-settings-colors": "^2.0.0",
+    "wocss-settings-global": "^1.0.0",
+    "wocss-settings-typography": "^2.0.0",
+    "wocss-tools-bem-constructor": "^1.0.3",
+    "wocss-tools-layout": "^2.2.0",
+    "wocss-tools-mq": "^1.1.0",
+    "wocss-trumps-utilities": "^2.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.7",

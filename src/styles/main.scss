@@ -1,8 +1,43 @@
-@import "~sanitize.css/sanitize.css";
+// SETTINGS
+@import "settings.global";
+@import '~wocss-settings-global';
+@import '~wocss-settings-typography';
+@import '~wocss-settings-colors';
+@import '~wocss-settings-breakpoints';
+@import '~wocss-settings-spaces';
 
-// add to sanitize.css
-img {
-  max-width: 100%;
-}
 
+// TOOLS
+@import "~wocss-tools-mq";
+@import "~wocss-tools-bem-constructor";
+@import "~wocss-tools-resets";
+@import "~wocss-tools-layout";
+
+
+// GENERIC
+@import "~wocss-generic-sanitize";
+
+
+// ELEMENTS
+@import "elements.page";
+@import "elements.headings";
+@import "elements.links";
+
+
+// OBJECTS
+@import "~wocss-objects-wrapper";
+@import "objects.button";
+@import "objects.grid";
+
+
+// COMPONENTS
+@import "components.button";
 @import "components.header";
+@import "components.slide";
+@import "components.card";
+@import "components.footer";
+
+
+// TRUMPS
+@import "~wocss-trumps-utilities";
+@import "utilities.widths";

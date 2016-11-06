@@ -1,0 +1,17 @@
+.c-card {
+  color: #78787A;
+}
+
+  .c-card__body {
+    padding: $global-spacing-unit;
+
+    h3 {
+      margin: 0 0 1em;
+      font-weight: $global-fw-s-bold;
+    }
+
+    p {
+      margin: 0 0 1em;
+      line-height: 1.1;
+    }
+  }

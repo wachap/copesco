@@ -1,0 +1,28 @@
+.c-slide {
+  position: relative;
+  box-sizing: border-box;
+
+  @include mq($until: 'laptop') {
+
+    img {
+      height: 80vh;
+      width: 100%;
+      object-fit: cover;
+    }
+  };
+}
+
+  .c-slide__content {
+    @include layout-center(50rem);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    h3 {
+      color: $white;
+      text-shadow: 0 0 .5em rgba($black, .5);
+      font-weight: $global-fw-x-bold;
+      line-height: 1.15;
+    }
+  }
