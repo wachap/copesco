@@ -26,8 +26,8 @@
 
 // OBJECTS
 @import "~wocss-objects-wrapper";
+@import "~wocss-objects-grid";
 @import "objects.button";
-@import "objects.grid";
 
 
 // COMPONENTS
@@ -40,4 +40,4 @@
 
 // TRUMPS
 @import "~wocss-trumps-utilities";
-@import "utilities.widths";
+@import "~wocss-utilities-widths";
