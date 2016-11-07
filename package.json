@@ -21,7 +21,7 @@
     "wocss-tools-bem-constructor": "^1.0.3",
     "wocss-tools-layout": "^2.2.0",
     "wocss-tools-mq": "^1.1.0",
-    "wocss-trumps-utilities": "^2.1.1",
+    "wocss-utilities-basscss": "^3.0.0",
     "wocss-utilities-widths": "^1.0.0"
   },
   "devDependencies": {
